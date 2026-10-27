@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ED2F7"/>
+      <stop offset="0.6" stop-color="#DDEFFB"/>
+      <stop offset="1" stop-color="#FFF0D4"/>
+    </linearGradient>
+    <pattern id="win" width="40" height="52" patternUnits="userSpaceOnUse">
+      <rect x="8" y="10" width="22" height="30" rx="3" fill="#FFE9A8" opacity="0.85"/>
+    </pattern>
+    <pattern id="win2" width="40" height="52" patternUnits="userSpaceOnUse">
+      <rect x="8" y="10" width="22" height="30" rx="3" fill="#D6E9FA" opacity="0.7"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1200" fill="url(#sky)"/>
+  <circle cx="1280" cy="260" r="120" fill="#FFD27A" opacity="0.55"/>
+  <circle cx="1280" cy="260" r="80" fill="#FFD27A"/>
+
+  <!-- clouds -->
+  <g fill="#fff" opacity="0.9">
+    <ellipse cx="320" cy="200" rx="130" ry="36"/>
+    <ellipse cx="400" cy="180" rx="90" ry="34"/>
+    <ellipse cx="900" cy="140" rx="110" ry="28"/>
+    <ellipse cx="960" cy="124" rx="70" ry="26"/>
+  </g>
+
+  <!-- far buildings -->
+  <g fill="#A9C8E8">
+    <rect x="40" y="480" width="170" height="380"/>
+    <rect x="230" y="400" width="140" height="460"/>
+    <rect x="620" y="440" width="160" height="420"/>
+    <rect x="980" y="380" width="150" height="480"/>
+    <rect x="1330" y="450" width="200" height="410"/>
+  </g>
+
+  <!-- near buildings -->
+  <g>
+    <rect x="100" y="560" width="240" height="300" fill="#5B7FB0"/>
+    <rect x="100" y="560" width="240" height="300" fill="url(#win)"/>
+    <rect x="380" y="500" width="200" height="360" fill="#3F5F8F"/>
+    <rect x="380" y="500" width="200" height="360" fill="url(#win2)"/>
+    <rect x="740" y="540" width="220" height="320" fill="#4C6FA3"/>
+    <rect x="740" y="540" width="220" height="320" fill="url(#win)"/>
+    <rect x="1240" y="520" width="240" height="340" fill="#3F5F8F"/>
+    <rect x="1240" y="520" width="240" height="340" fill="url(#win2)"/>
+    <rect x="1300" y="490" width="120" height="30" fill="#2F4A73"/>
+  </g>
+
+  <!-- trees -->
+  <g>
+    <rect x="1000" y="770" width="14" height="70" fill="#6B4A32"/>
+    <circle cx="1007" cy="750" r="46" fill="#4FA66B"/>
+    <rect x="636" y="780" width="12" height="62" fill="#6B4A32"/>
+    <circle cx="642" cy="762" r="38" fill="#5DB87A"/>
+  </g>
+
+  <!-- sidewalk and road -->
+  <rect x="0" y="830" width="1600" height="40" fill="#D9D3C5"/>
+  <rect x="0" y="870" width="1600" height="330" fill="#3A3F4B"/>
+  <g fill="#F4F1E8">
+    <rect x="60" y="1060" width="140" height="12" rx="6"/>
+    <rect x="320" y="1060" width="140" height="12" rx="6"/>
+    <rect x="580" y="1060" width="140" height="12" rx="6"/>
+    <rect x="840" y="1060" width="140" height="12" rx="6"/>
+    <rect x="1100" y="1060" width="140" height="12" rx="6"/>
+    <rect x="1360" y="1060" width="140" height="12" rx="6"/>
+  </g>
+
+  <!-- route -->
+  <path d="M820 960 C 960 960 1020 860 1150 790" fill="none" stroke="#FFD84D" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 24"/>
+  <circle cx="820" cy="960" r="14" fill="#fff" stroke="#111" stroke-width="6"/>
+
+  <!-- pin -->
+  <ellipse cx="1150" cy="790" rx="64" ry="14" fill="#000" opacity="0.28"/>
+  <g transform="translate(1150,430)">
+    <path d="M0 0 C-90 0 -140 70 -140 130 C-140 210 -60 270 0 360 C60 270 140 210 140 130 C140 70 90 0 0 0 Z" fill="#111"/>
+    <circle cx="0" cy="130" r="48" fill="#fff"/>
+    <rect x="-18" y="112" width="36" height="36" rx="6" fill="#111"/>
+  </g>
+
+  <!-- car -->
+  <ellipse cx="560" cy="985" rx="290" ry="22" fill="#000" opacity="0.3"/>
+  <g transform="translate(300,785)">
+    <rect x="235" y="-4" width="64" height="26" rx="6" fill="#111"/>
+    <rect x="245" y="4" width="44" height="8" rx="3" fill="#FFD84D"/>
+    <path d="M20 150 L20 110 Q20 90 45 85 L130 70 Q160 20 230 20 L350 20 Q400 22 425 70 L480 85 Q505 92 505 120 L505 150 Z" fill="#1FB5A8"/>
+    <path d="M150 70 Q172 38 232 38 L285 38 L285 72 Z" fill="#CFEFFF"/>
+    <path d="M300 38 L350 38 Q385 40 402 72 L300 72 Z" fill="#CFEFFF"/>
+    <rect x="296" y="40" width="6" height="110" fill="#17958A"/>
+    <rect x="480" y="105" width="24" height="14" rx="5" fill="#FFE08A"/>
+    <rect x="22" y="108" width="16" height="12" rx="4" fill="#FF6B6B"/>
+    <rect x="20" y="138" width="485" height="12" fill="#17958A"/>
+    <circle cx="120" cy="155" r="40" fill="#22252E"/>
+    <circle cx="120" cy="155" r="19" fill="#B8BEC9"/>
+    <circle cx="400" cy="155" r="40" fill="#22252E"/>
+    <circle cx="400" cy="155" r="19" fill="#B8BEC9"/>
+  </g>
+</svg>

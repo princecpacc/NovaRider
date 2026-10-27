@@ -1,0 +1,57 @@
+@import "tailwindcss";
+/* =========================================
+   NOVARIDE FINDING RIDE ANIMATIONS
+========================================= */
+
+@keyframes radarPulse {
+  0% {
+    transform: scale(0.65);
+    opacity: 0.75;
+  }
+
+  60% {
+    transform: scale(1);
+    opacity: 0.35;
+  }
+
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}
+
+
+
+@keyframes menuIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94) translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+
+@keyframes overlayIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes sheetUp {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
